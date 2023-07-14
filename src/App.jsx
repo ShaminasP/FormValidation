@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import FormComponent from './FormComponet';
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1>HEYYY</h1>
-      
-    </>
-  )
-}
+    <div>
+      <h1>React Form Example</h1>
+      <FormComponent />
+    </div>
+  );
+};
 
-export default App
+export default App;
